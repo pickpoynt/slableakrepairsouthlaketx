@@ -32,7 +32,7 @@ const Hero = ({
             className="w-full h-full object-cover scale-150 animate-pulse transition-all duration-[20000ms]"
           />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-b from-slate-950/70 via-slate-950/40 to-slate-950/90" />
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-950/80 via-indigo-900/70 to-teal-900/80" />
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
