@@ -45,7 +45,7 @@ const plumbingBenefits = [
 const TulsaPlumbingInfo = () => {
     return (
         <section id="tulsa-plumbing-info" className="py-24 bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 relative overflow-hidden text-white">
-            <div className="absolute inset-0 bg-[url('input_file_0.png')] opacity-5 mix-blend-overlay bg-cover bg-center"></div>
+            <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&q=80')] opacity-5 mix-blend-overlay bg-cover bg-center"></div>
 
             <div className="container mx-auto px-4 relative z-10">
                 <div className="text-center max-w-3xl mx-auto mb-16">
@@ -107,7 +107,7 @@ const TulsaPlumbingInfo = () => {
                         </div>
                         <div className="relative h-full min-h-[300px] rounded-2xl overflow-hidden border border-white/10 shadow-lg">
                             <img
-                                src="input_file_1.png"
+                                src="https://images.unsplash.com/photo-1607472586893-edb57bdc0739?auto=format&fit=crop&q=80"
                                 alt="Tulsa Oklahoma Infrastructure"
                                 className="absolute inset-0 w-full h-full object-cover"
                             />
