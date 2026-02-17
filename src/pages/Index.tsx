@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import NorwalkPlumbingInfo from "@/components/landing/NorwalkPlumbingInfo";
+import TorringtonPlumbingInfo from "@/components/landing/TorringtonPlumbingInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,38 +15,38 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>plumbers norwalk ct</title>
-        <meta name="description" content="plumbers norwalk ct - Trusted residential and commercial plumbing services in Norwalk, CT. Emergency repairs, water heaters, and drain cleaning. Call (877) 792-1410." />
-        <meta name="keywords" content="plumbers norwalk ct, Norwalk plumbing, emergency plumber Norwalk, water heater repair Norwalk, drain cleaning Fairfield County" />
-        <link rel="canonical" href="https://plumbers-norwalk-ct.com/" />
+        <title>plumbers torrington ct</title>
+        <meta name="description" content="plumbers torrington ct - Professional residential and commercial plumbing services in Torrington, CT. Emergency repairs, water heaters, and pipe services. Call (877) 792-1410." />
+        <meta name="keywords" content="plumbers torrington ct, Torrington plumbing, emergency plumber Torrington, water heater repair Torrington, drain cleaning Litchfield County" />
+        <link rel="canonical" href="https://plumbers-torrington-ct.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Plumber Norwalk CT Pros",
-            "image": "https://images.unsplash.com/photo-1603712725038-e9334ae8f39f?auto=format&fit=crop&q=80",
+            "name": "Plumber Torrington CT Pros",
+            "image": "https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80",
             "telephone": "+18777921410",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Norwalk",
+              "addressLocality": "Torrington",
               "addressRegion": "CT",
-              "postalCode": "06850",
+              "postalCode": "06790",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "41.1176",
-              "longitude": "-73.4079"
+              "latitude": "41.8001",
+              "longitude": "-73.1212"
             },
             "openingHours": "Mo-Su 00:00-23:59",
             "serviceArea": {
               "@type": "Place",
-              "name": "Norwalk, CT"
+              "name": "Torrington, CT"
             },
             "priceRange": "$$",
-            "description": "Professional plumbing services in Norwalk, Connecticut. Specialized in leak detection, water heater repair, and emergency plumbing for residential and commercial properties."
+            "description": "Professional plumbing services in Torrington, Connecticut. Specialized in leak detection, water heater repair, and emergency plumbing for residential and commercial properties."
           })}
         </script>
 
@@ -58,16 +58,16 @@ const Index = () => {
             "serviceType": "Plumbing Services",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Plumber Norwalk CT Pros",
+              "name": "Plumber Torrington CT Pros",
               "telephone": "+18777921410"
             },
             "areaServed": {
               "@type": "Place",
-              "name": "Norwalk, Connecticut"
+              "name": "Torrington, Connecticut"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Norwalk Plumbing Catalog",
+              "name": "Torrington Plumbing Catalog",
               "itemListElement": [
                 {
                   "@type": "Offer",
@@ -87,7 +87,7 @@ const Index = () => {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Leak Detection"
+                    "name": "Pipe Repair"
                   }
                 }
               ]
@@ -96,11 +96,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="plumbers norwalk ct - Plumber Norwalk CT Pros" />
-        <meta property="og:description" content="Expert plumbing services in Norwalk, CT. Rapid response for emergencies, leaks, and installations in Fairfield County." />
+        <meta property="og:title" content="plumbers torrington ct - Plumber Torrington CT Pros" />
+        <meta property="og:description" content="Expert plumbing services in Torrington, CT. Rapid response for emergencies, water heaters, and installations in Litchfield County." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://plumbers-norwalk-ct.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1603712725038-e9334ae8f39f?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://plumbers-torrington-ct.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
@@ -108,18 +108,18 @@ const Index = () => {
         <Hero
           title={
             <>
-              plumbers norwalk ct
-              <span className="block text-indigo-400 mt-2 text-2xl md:text-3xl italic">Plumber Norwalk CT Pros</span>
+              plumbers torrington ct
+              <span className="block text-indigo-400 mt-2 text-2xl md:text-3xl italic">Plumber Torrington CT Pros</span>
             </>
           }
-          subtitle="Norwalk's trusted plumbing authorities. Delivering top-rated residential and commercial plumbing solutions. Serving South Norwalk, Rowayton, and beyond with excellence."
-          image="https://images.unsplash.com/photo-1603712725038-e9334ae8f39f?auto=format&fit=crop&q=80"
-          overlayImage="https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80"
-          badge="NORWALK LICENSED PLUMBERS"
+          subtitle="Torrington's trusted plumbing authorities. Delivering top-rated residential and commercial plumbing solutions. Serving Litchfield County with pride."
+          image="https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80"
+          overlayImage="https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&q=80"
+          badge="TORRINGTON LICENSED PLUMBERS"
         />
         <Services />
         <WhyUs />
-        <NorwalkPlumbingInfo />
+        <TorringtonPlumbingInfo />
         <FAQ />
         <Contact />
         <RandomLinks />

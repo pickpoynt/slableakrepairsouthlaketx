@@ -11,13 +11,13 @@ const Footer = () => {
                 <Hammer className="w-6 h-6 text-white" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white">NORWALK</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white">TORRINGTON</span>
                 <span className="text-sm font-medium text-blue-500 uppercase tracking-widest text-[10px]">PLUMBING PROS</span>
               </div>
             </div>
             <p className="text-slate-400 leading-relaxed font-medium">
-              Norwalk's premier plumbing specialists.
-              We provide expert residential and commercial plumbing services throughout Fairfield County, CT.
+              Torrington's trusted plumbing authorities.
+              We provide expert residential and commercial plumbing services throughout Litchfield County, CT.
             </p>
             <div className="flex items-center gap-4">
               <a href="#" className="w-10 h-10 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center hover:bg-blue-600 transition-colors group">
@@ -36,10 +36,10 @@ const Footer = () => {
             <h4 className="text-lg font-bold mb-8 font-heading text-white">Our Services</h4>
             <ul className="space-y-4">
               <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Emergency Plumbing</a></li>
-              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Water Heater Repair</a></li>
-              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Drain Cleaning</a></li>
-              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Leak Detection</a></li>
+              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Water Heaters</a></li>
               <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Pipe Repair</a></li>
+              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Leak Detection</a></li>
+              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Drain Cleaning</a></li>
             </ul>
           </div>
 
@@ -75,7 +75,7 @@ const Footer = () => {
                 <div>
                   <p className="text-slate-500 text-sm font-bold uppercase tracking-wider mb-1 font-heading">Service Region</p>
                   <p className="text-white font-bold">
-                    Norwalk & Fairfield County
+                    Torrington & Litchfield
                   </p>
                 </div>
               </div>
@@ -85,7 +85,7 @@ const Footer = () => {
 
         <div className="pt-10 border-t border-slate-900 flex flex-col md:row items-center justify-between gap-6">
           <p className="text-slate-500 text-sm font-bold uppercase tracking-widest">
-            © {new Date().getFullYear()} PLUMBER NORWALK CT PROS.
+            © {new Date().getFullYear()} PLUMBER TORRINGTON CT PROS.
           </p>
           <div className="flex items-center gap-2 text-slate-600 text-[10px] items-center font-bold uppercase tracking-widest">
             <Hammer className="w-4 h-4 text-blue-500" />
@@ -101,19 +101,19 @@ const Footer = () => {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": "Plumber Norwalk CT Pros",
+          "name": "Plumber Torrington CT Pros",
           "telephone": "+18777921410",
           "address": {
             "@type": "PostalAddress",
-            "addressLocality": "Norwalk",
+            "addressLocality": "Torrington",
             "addressRegion": "CT",
-            "postalCode": "06850",
+            "postalCode": "06790",
             "addressCountry": "US"
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": "41.1176",
-            "longitude": "-73.4079"
+            "latitude": "41.8001",
+            "longitude": "-73.1212"
           },
           "openingHours": "Mo-Su 00:00-23:59"
         })}
